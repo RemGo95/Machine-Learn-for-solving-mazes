@@ -1,6 +1,8 @@
 Welcome to machine learning environment and simulation in Unity Engine.
 AI Agent have to reach target and cant touch the walls.
 
+![img1](https://user-images.githubusercontent.com/37455393/139258751-eaa3c24d-69c8-45a7-bf85-eb528214c063.png)
+
 Software and packages you will need to run Neural Network and simulation:
 
 For host with Unity Engine:
