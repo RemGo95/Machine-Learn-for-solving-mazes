@@ -4,7 +4,8 @@ AI Agent have to reach target and cant touch the walls.
 Above maze is very simple but it also took so much time to train it (about 500k episodes).
 In Unity we can easy multiply our learn environment, 12 instances were no problem for PC with i5 4690K and GTX1060 with 16 GB RAM.
 
-![nagitzdj](https://user-images.githubusercontent.com/37455393/140611761-443b9447-c49d-482b-94a3-42149506f4f8.png)
+![nagitzdj](https://user-images.githubusercontent.com/37455393/140613890-e4acb488-b5e0-42b0-a2a1-56328ca1ecce.png)
+
 
 
 Software and packages you will need to run Neural Network and simulation:
