@@ -25,6 +25,7 @@ public class ML_agent : Agent {
     
     public override void OnEpisodeBegin()
     {
+        timing.Reset();
         timing.Start();
         //base.OnEpisodeBegin();
         hit = 0;
