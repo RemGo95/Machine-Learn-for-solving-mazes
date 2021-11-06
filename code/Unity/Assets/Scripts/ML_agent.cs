@@ -9,22 +9,35 @@ using System.IO;
 using UnityEngine.UI;
 
 public class ML_agent : Agent {
+    //public string data;
+    System.Diagnostics.Stopwatch timing = new System.Diagnostics.Stopwatch();
+    public System.DateTime startTime;
 
     int hit;
+    int point;
     [SerializeField] private Transform targetTransform;
+    //[SerializeField] public Transform AimTargetV;
+
+    [SerializeField] Text EpisodeText;
+    [SerializeField] Text Reward;
+    [SerializeField] Text Weights;
+    [SerializeField] Text PalletVolume;
+    
     public override void OnEpisodeBegin()
     {
+        timing.Start();
         //base.OnEpisodeBegin();
         hit = 0;
         transform.localPosition = new Vector3(-0.35f, 0.13f,-0.35f);
-      
+        point = 0;
 
     }
 
     public void Update()
     {
-        if (transform.localPosition.y < 0f)
+        if(timing.ElapsedMilliseconds >= 10000)
         {
+            SetReward(-1f);
             EndEpisode();
         }
     }
