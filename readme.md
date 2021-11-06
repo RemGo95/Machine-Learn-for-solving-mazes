@@ -6,6 +6,7 @@ In Unity we can easy multiply our learn environment, 12 instances were no proble
 
 ![nagitzdj](https://user-images.githubusercontent.com/37455393/140613890-e4acb488-b5e0-42b0-a2a1-56328ca1ecce.png)
 
+![raypercep](https://user-images.githubusercontent.com/37455393/140616375-e9bac046-5f19-4992-bc8d-b282577a8a6b.png)
 
 
 Software and packages you will need to run Neural Network and simulation:
