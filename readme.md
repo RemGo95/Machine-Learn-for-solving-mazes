@@ -34,4 +34,4 @@ For virtual environment (python venv):
 (try to install the same versions)
 
 Optional (if we want to use our graphic card):
-- NVIDIA cuDNN (for both).
+- NVIDIA cuDNN.
